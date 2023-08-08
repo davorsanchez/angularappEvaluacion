@@ -1,0 +1,9 @@
+/* Aplica estilos a la fila cuando el checkbox está seleccionado */
+tr input[type="checkbox"]:checked ~ td {
+  background-color: lightblue;
+}
+
+  /* Estilos adicionales para los botones de modificar y eliminar */
+  tr input[type="checkbox"]:checked ~ td button {
+    display: block;
+  }

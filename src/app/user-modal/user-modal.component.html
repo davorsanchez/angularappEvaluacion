@@ -1,0 +1,15 @@
+<div class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>{{ title }}</h2>
+      <span class="close" (click)="cancelClicked.emit()">&times;</span>
+    </div>
+    <div class="modal-body">
+      {{ content }}
+    </div>
+    <div class="modal-footer">
+      <button class="btn-save" (click)="saveClicked.emit()">Guardar</button>
+      <button class="btn-cancel" (click)="cancelClicked.emit()">Cancelar</button>
+    </div>
+  </div>
+</div>
